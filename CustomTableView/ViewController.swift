@@ -42,6 +42,10 @@ class ViewController: UITableViewController {
         cell.priceFood.text = price[indexPath.row]
         cell.locationStore.text = placeName[indexPath.row]
         cell.foodImageView.image = UIImage(named: imageStore[indexPath.row])
+        
+        //Circular Image
+        //cell.foodImageView.layer.cornerRadius = 25.0
+        //cell.foodImageView.clipsToBounds = true
         return cell
     }
 }
