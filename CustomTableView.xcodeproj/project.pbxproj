@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584AEB821E51FF1100B4214E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AEB811E51FF1100B4214E /* Restaurant.swift */; };
+		5879585F1E4CC298006C6528 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5879585E1E4CC298006C6528 /* DetailViewController.swift */; };
 		58B574CD1E4738BD007DD4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B574CC1E4738BD007DD4E7 /* AppDelegate.swift */; };
 		58B574CF1E4738BD007DD4E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B574CE1E4738BD007DD4E7 /* ViewController.swift */; };
 		58B574D21E4738BD007DD4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B574D01E4738BD007DD4E7 /* Main.storyboard */; };
 		58B574D41E4738BD007DD4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B574D31E4738BD007DD4E7 /* Assets.xcassets */; };
 		58B574D71E4738BD007DD4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B574D51E4738BD007DD4E7 /* LaunchScreen.storyboard */; };
 		58B574DF1E473989007DD4E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B574DE1E473989007DD4E7 /* TableViewCell.swift */; };
+		58F17F8D1E651F0E00AE094F /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F17F8C1E651F0E00AE094F /* DetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		584AEB811E51FF1100B4214E /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		5879585E1E4CC298006C6528 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		58B574C91E4738BD007DD4E7 /* CustomTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B574CC1E4738BD007DD4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58B574CE1E4738BD007DD4E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		58B574D61E4738BD007DD4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58B574D81E4738BD007DD4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B574DE1E473989007DD4E7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		58F17F8C1E651F0E00AE094F /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				58B574D51E4738BD007DD4E7 /* LaunchScreen.storyboard */,
 				58B574D81E4738BD007DD4E7 /* Info.plist */,
 				58B574DE1E473989007DD4E7 /* TableViewCell.swift */,
+				5879585E1E4CC298006C6528 /* DetailViewController.swift */,
+				584AEB811E51FF1100B4214E /* Restaurant.swift */,
+				58F17F8C1E651F0E00AE094F /* DetailTableViewCell.swift */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F17F8D1E651F0E00AE094F /* DetailTableViewCell.swift in Sources */,
+				584AEB821E51FF1100B4214E /* Restaurant.swift in Sources */,
 				58B574DF1E473989007DD4E7 /* TableViewCell.swift in Sources */,
 				58B574CF1E4738BD007DD4E7 /* ViewController.swift in Sources */,
 				58B574CD1E4738BD007DD4E7 /* AppDelegate.swift in Sources */,
+				5879585F1E4CC298006C6528 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 				58B574DD1E4738BD007DD4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
